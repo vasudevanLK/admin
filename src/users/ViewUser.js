@@ -6,7 +6,7 @@ const ViewUser = () => {
     const [user,setUser]=useState({
         name:"",
         username:"",
-        email:""
+        Email:""
     })
 
     const {id}= useParams();
@@ -38,7 +38,7 @@ const ViewUser = () => {
                         </li>
                         <li className='list-group-item'>
                             <b>Email: </b>
-                            {user.email}
+                            {user.Email}
                         </li>
                     </ul>
                 </div>
